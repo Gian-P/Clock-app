@@ -6,8 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "build:dev": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --open",
-    "watch": "webpack --watch"
+    "start": "webpack-dev-server --open"
   },
   "author": "Giancarlo Pimentel",
   "license": "ISC",

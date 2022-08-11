@@ -28,10 +28,10 @@ html {
 
 body {
   min-height: 100vh;
-  background-image: url("/src/assets/mobile/bg-image-daytime.jpg");
+  background: url('/src/assets/mobile/bg-image-daytime.jpg');
   background-size: cover;
   font-family: 'Inter', sans-serif;
-  color: $white;
+  //color: $white;
   word-wrap: break-word;
 }
 
