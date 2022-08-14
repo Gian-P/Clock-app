@@ -1,0 +1,41 @@
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 37.5rem;
+  height: 25.6rem;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(40.7742px);
+}
+
+.modal-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 2.6rem 0px 2.6rem;
+  gap: 1.6rem;
+}
+
+.modal-container-div{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  :nth-child(1){
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #303030;
+  }
+  :nth-child(2){
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.0rem;
+    line-height: 2.4rem;
+    color: #303030;
+  }
+}
+
+

@@ -4,36 +4,334 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
   font-size: 62.5%;
-
-  @media (max-width: 1200px) {
-      
-  }
-
-  @media (max-width: 1000px) {
-      
-  }
-
-  @media (max-width: 800px) {
-      
-  }
-
-  @media (max-width: 700px) {
-      
-  }
-
-  @media (max-width: 400px) {
-    
-  }
 }
 
-body {
-  min-height: 100vh;
-  background: url('/src/assets/mobile/bg-image-daytime.jpg');
+main{
+  min-height: 66.7rem;
+  background: url('/src/assets/mobile/bg-image-daytime.jpg') ;
   background-size: cover;
   font-family: 'Inter', sans-serif;
-  //color: $white;
   word-wrap: break-word;
-}
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+
+  @media (min-width: 23.4375em) and (max-width: 41.6875em) {
+    max-width: 37.5rem;
+    max-height: 66.7rem;
+    
+    //375 - 667
+  }
+  
+  @media (min-width: 48em) and (max-width: 64em) {
+    background: url('/src/assets/tablet/bg-image-daytime.jpg') ;
+    max-width: 76.8rem;
+    max-height: 102.4rem;
+    .background-shadow{
+      min-height: 102.4rem;
+    }
+  
+    .header-container{
+      p{
+        min-width: 54.0rem;
+        min-height: 8.4rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        color: $white;
+        margin-left: 3.8rem;
+        margin-top: 8.0rem;
+      }
+  
+      .refresh-button{
+        margin-top: 8.967rem;
+        margin-left: 1.567rem;
+      }
+    }
+  
+    .container-author-name{
+      margin-left: 37px;
+      margin-top: 70px;
+      h3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: $white;
+      }
+    }
+    .bottom-side-container{
+      transform: translate3d(0, -13rem, 0);
+      margin-left: 35px;
+      .message-container-gretting{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 3.6px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        span::after{
+          content: "GOOD MORNING";         
+        }
+      }
+    }
+    
+    .hour-container{
+      bottom: 300px;
+      span{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 28px;
+        color: $white;
+        margin-bottom: 20px;
+      }
+      h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 175px;
+        line-height: 175px;
+        letter-spacing: -4.375px;
+        color: #FFFFFF;
+      }
+    }
+
+    .location-container{
+      bottom: 305px;
+      h2{
+        margin-left: 35px;
+      }
+    }
+
+    .button-container{
+      position: absolute;
+      width: 146px;
+      height: 56px;
+      bottom: 16rem;
+      span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #000000;
+      }
+      button{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 97px;
+        top: 8px;
+      }
+    }
+
+    .modal{
+        min-width: 768px;
+        min-height: 440px;
+        display: grid;
+        .modal-container{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          padding: 0px 10px 0px 10px;
+          column-gap: 100px;
+          row-gap: 50px;
+          padding-bottom: 20px;
+          padding-left: 60px;
+          .modal-container-div{
+           justify-content: unset;
+           flex-direction: column;
+           .commun-first-span{
+              font-style: normal;
+              font-weight: 400;
+              font-size: 13px;
+              line-height: 28px;
+              display: flex;
+              align-items: flex-end;
+              letter-spacing: 2.6px;
+              text-transform: uppercase;
+              color: #303030;
+           }
+           .commun-second-span{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            display: flex;
+            align-items: flex-end;
+            color: #303030;
+           }
+          }
+        }
+    }    
+    // 768 - 1024
+  }
+  
+  @media (min-width: 90em) {
+    background: url('/src/assets/desktop/bg-image-daytime.jpg') ;
+    max-width: 144rem;
+    max-height: 120rem;
+    background-repeat: no-repeat;
+    .background-shadow{
+      min-height: 80rem;
+    }
+
+    .header-container{
+      min-width: 570px;
+      min-height: 84px;
+      margin-left: 170px;
+      margin-top: 50px;
+      p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: $white;
+      }
+      .refresh-button{
+        margin-top: 2.5rem;
+      }
+    }
+    .container-author-name{
+      h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: $white;
+      }
+      margin-left: 145px;
+      margin-top: 50px;
+    }
+
+    .bottom-side-container{
+      height: 0px;
+      position: relative;
+      .message-container{
+        left: 165px;
+        bottom: 390px;
+        .message-container-gretting{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 28px;
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          color: $white;
+          span::after{
+            content: "IT'S CURRENTLY";         
+            }
+          }
+        }
+        .location-container{
+          bottom: 360px;
+          left: 135px;
+          h2{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 4.8px;
+            text-transform: uppercase;
+            color: $white;
+          }
+        }
+      }
+
+    
+      .hour-container{
+        bottom: 380px;
+        left: 160px;
+        h1{
+          font-style: normal;
+          font-weight: 700;
+          font-size: 200px;
+          line-height: 200px;
+          letter-spacing: -5px;
+          color: $white;
+        }
+        span{
+          font-style: normal;
+          font-weight: 300;
+          font-size: 40px;
+          line-height: 28px;
+          text-transform: uppercase;
+          color: $white;
+          margin-bottom: 30px;
+          margin-left: 25px;
+        }
+      }
+
+      .button-container{
+        position: absolute;
+        left: unset;
+        right: 170px;
+        bottom: 10rem;
+        width: 146px;
+        height: 56px;
+        padding-right: 1rem;
+        
+        span{
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 5px;
+          text-transform: uppercase;
+          color: #000000;
+          mix-blend-mode: normal;
+          opacity: 0.5;
+        }
+
+        button{
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      .modal{
+        width: 100vw;
+        display: grid;
+        position: absolute;
+        height: 32rem;
+        background: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(40.7742px);
+        .modal-container{
+          display: grid;
+          grid-template-columns: 5fr 6fr;
+          grid-template-rows: 1fr 1fr;
+          column-gap: 260px;
+          row-gap: 20px;
+          padding-bottom: 20px;
+          .modal-container-div{
+           justify-content: unset;
+           flex-direction: column;
+           margin-top: 20px;
+           .commun-first-span{         
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            letter-spacing: 3px;
+           }
+           .commun-second-span{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 68px;
+           }
+          }
+        }
+      }
+    }     
+    //1440 - 800
+  }
+
+
 
 li {
   list-style: none;

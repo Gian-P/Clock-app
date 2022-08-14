@@ -1,0 +1,115 @@
+.background-shadow{
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  min-height: 66.7rem;
+}
+
+.header-container{
+  position: absolute;
+  top: 0px;
+  display: flex;
+  width: 32.4rem;
+  height: 9.7rem;
+  margin-left: 2.6rem;
+}
+
+.header-container p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  display: flex;
+  align-items: flex-end;
+  color: $white;
+}
+
+.refresh-button{
+  width: 1.667rem;
+  height: 1.667rem;
+  margin-top: 3.0rem;
+}
+
+.container-author-name{
+  position: absolute;
+  top: 9.3rem;
+}
+
+.author-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  color: #ffffff;
+  margin-left: 2.5rem;
+  margin-top: 1.2rem;
+}
+
+.message-container{
+  display: flex;
+  position: relative;
+  align-content: center;
+  bottom: 30.0rem;
+  left: 2.6rem;
+  align-items: center;
+}
+
+.message-container-gretting{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $white;
+  padding-left: 16px;
+}
+
+.hour-container{
+  display: flex;
+  position: relative;
+  bottom: 290px;
+  left: 26px;
+
+}
+
+.hour-container h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -2.5px;
+  color: $white;
+}
+
+.hour-container span{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: $white;
+  letter-spacing: 0.5px;
+  align-self: end;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.location-container{
+  position: relative;
+  bottom: 280px;
+}
+
+.location-container h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-left: 26px;
+  color: $white;
+}
+
+

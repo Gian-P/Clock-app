@@ -39,7 +39,7 @@ module.exports = {
           sources: false,
         },
       },
-      {
+      {             
         test: /.(png|jpg|svg|gif)$/i,
         loader: "file-loader",
         loader: "url-loader",
