@@ -1,0 +1,21 @@
+1-) Desarrollar la logica para que se muestre el quote con su autor cuando se cargue la pagina (dentro de este tambien va que cuando se presione el boton se cambie el quote)
+
+- [Programming Quotes API](https://programming-quotes-api.herokuapp.com/) to generate random programming quotes.
+    - If the Programming Quotes API doesn't work, [here's a good alternative quote API](https://github.com/lukePeavey/quotable) you can use instead. It's not programming specific, but it will do the trick.
+
+---------------------------------------------------------------------------------------
+
+2-) Desarrollar la logica para que se muestre el greeting correspondiente (GOOD MORNING, GOOD AFTERNOON, GOOD NIGHT) (dentro de este tambien va cargar la hora correspondiente del lugar del usuario junto con mostrar el AM o el PM) Y dentro de este tambien
+va cargar el background correspondiente.
+
+- [World Time API](http://worldtimeapi.org/) to set the time based on the visitor's IP adress. This API will also be used for additional data, like the day of the year shown in the expanded state.
+
+- [IP Geolocation API](https://freegeoip.app/) to set the city and country underneath the time
+
+---------------------------------------------------------------------------------------
+
+3-) Dentro del modal debes de cargar la siguiente informacion: Current timezone, day of the week, day of the year, week number.
+
+- [World Time API](http://worldtimeapi.org/) to set the time based on the visitor's IP adress. This API will also be used for additional data, like the day of the year shown in the expanded state.
+
+

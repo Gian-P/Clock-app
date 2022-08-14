@@ -57,27 +57,27 @@
 .message-container-gretting{
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
-  letter-spacing: 3px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
   color: $white;
-  padding-left: 16px;
+  padding-left: 1.6rem;
 }
 
 .hour-container{
   display: flex;
   position: relative;
-  bottom: 290px;
-  left: 26px;
+  bottom: 29rem;
+  left: 2.6rem;
 
 }
 
 .hour-container h1{
   font-style: normal;
   font-weight: 700;
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 10rem;
+  line-height: 10rem;
   letter-spacing: -2.5px;
   color: $white;
 }
@@ -85,30 +85,30 @@
 .hour-container span{
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 1.5re,;
+  line-height: 2.8rem;
   text-transform: uppercase;
   color: $white;
   letter-spacing: 0.5px;
   align-self: end;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
   margin-left: 5px;
 }
 
 .location-container{
   position: relative;
-  bottom: 280px;
+  bottom: 28rem;
 }
 
 .location-container h2{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
   letter-spacing: 3px;
   text-transform: uppercase;
-  margin-left: 26px;
+  margin-left: 2.6rem;
   color: $white;
 }
 
