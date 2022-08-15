@@ -30,11 +30,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/assets/preview.jpg)
+![Design preview for the clock app coding callenge](./docs/assets/preview.jpg)
 
 ### Links
 
-- Github pages: [Add live site URL here](https://gian-p.github.io/Clock-app/)
+- Github pages: [https://gian-p.github.io/Clock-app/]()
 
 ## My process
 
