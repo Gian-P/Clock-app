@@ -1,2 +1,1 @@
-import './HandleModalLogic'
-import './QuoteGenerator'
+import './HandleUI'

@@ -1,10 +1,5 @@
-@import "./base/root";
-@import "./base/reset";
-@import "./base/global";
-@import "./components/animation";
-/*applied through js*/
-@import "./components/_button";
-/*not applied through js*/
-@import "./components/_layout";
-/*not applied through js*/
-@import "./components/_popup";
+
+@import "./base/base";
+@import "./base/themes";
+@import "./components/layout";
+
